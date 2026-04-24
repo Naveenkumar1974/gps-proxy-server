@@ -12,7 +12,7 @@ app.use(cors());
 
 /* ================= CONFIG ================= */
 const SUPABASE_URL = "https://akibgftspolpbkbsmvux.supabase.co";
-const SUPABASE_API_KEY = "YOUR_KEY";
+const SUPABASE_API_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFraWJnZnRzcG9scGJrYnNtdnV4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjI0MjE3MDMsImV4cCI6MjA3Nzk5NzcwM30.SdPKiR9Vx7Nf7ykwxBQAHsKiO7bOjA2uxIcBNLpm6d0";
 
 /* ================= ROUTE ================= */
 app.post("/gps", async (req, res) => {
